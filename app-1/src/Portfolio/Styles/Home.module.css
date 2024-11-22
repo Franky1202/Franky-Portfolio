@@ -1,0 +1,221 @@
+.home {
+    min-height: 100vh;
+    background-image: url(../../../public/_おちつくへや-_-Artwork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+}
+
+/* Section Container */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(133, 206, 226, 0.747); /* Light overlay for better readability */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Image Section */
+  .imageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profileImage {
+    width: 250px;
+    height: auto;
+    border-radius: 50%; /* Circular profile image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Section */
+  .textContent {
+    text-align: left;
+    max-width: 600px;
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: #3f51b5;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #0e0e0e;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .primaryButton {
+    padding: 0.8rem 1.5rem;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .primaryButton:hover {
+    background: #2c2c2c;
+  }
+  
+  .learnMoreBttn {
+    padding: 0.8rem 1.5rem;
+    background-color: #081f06;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .learnMoreBttn:hover {
+    background: #838282;
+  }
+
+  /* Responsive Breakpoints */
+  /*Tablet*/
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center;
+    }
+
+    .profileImage {
+        width: 250px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
+}
+
+/*Mobile Large*/
+@media (max-width: 576px) {
+    .profileImage {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+}
+
+/*Mobile Medium*/
+@media (max-width: 425px) {
+    .profileImage {
+        width: 150px;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
+
+/*Mobile Small*/
+@media (max-width: 320px) {
+    .profileImage {
+        width: 120px;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+}
+  
+/*  
+.content {
+    text-align: left;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+  }*/
+/*Zigzag Layout*/
+/*
+.zigzagContent p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.zigzagContent {
+    flex: 1;
+}
+
+.zigzagContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .zigzagItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .zigzagImage {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.zigzag {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    
+  }*/

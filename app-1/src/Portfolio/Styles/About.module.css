@@ -1,0 +1,196 @@
+
+.about {
+    background-image: url(../../../public/_Sunset-Village_-Artwork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+   
+    min-height: 100vh;
+  }
+  
+  .card {
+    background: rgba(242, 234, 185, 0.877);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 900px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profileSection {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profileImage {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .profileSection h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .profileSection p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .aboutSection, .infoSection, .interestsSection {
+    margin: 2rem 0;
+    text-align: left;
+  }
+  
+  .aboutSection h3, .infoSection h3, .interestsSection h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutSection p, .infoSection ul, .interestsSection p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .infoSection ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .infoSection ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .cardItem {
+    background: rgba(225, 144, 110, 0.911);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .cardItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardItem img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardItem p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+/*Responsive Breakpoints*/
+/*Tablets*/
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Adjust card size */
+    }
+
+    .profileImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profileSection h2 {
+        font-size: 1.5rem;
+    }
+
+    .aboutSection, .infoSection, .interestsSection {
+        margin: 1.5rem 0;
+    }
+
+    .aboutSection h3, .infoSection h3, .interestsSection h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/*Mobile Large*/
+@media (max-width: 576px) {
+    .profileImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profileSection h2 {
+        font-size: 1.3rem;
+    }
+
+    .aboutSection p, .infoSection ul, .interestsSection p {
+        font-size: 0.9rem;
+    }
+}
+
+/*Mobile Medium*/
+@media (max-width: 425px) {
+    .card {
+        padding: 1rem;
+    }
+
+    .profileImage {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profileSection h2 {
+        font-size: 1.2rem;
+    }
+
+    .aboutSection h3, .infoSection h3, .interestsSection h3 {
+        font-size: 1rem;
+    }
+}
+
+/*Mobile Small*/
+@media (max-width: 320px) {
+    .profileImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profileSection h2 {
+        font-size: 1rem;
+    }
+}
+
+/*
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about img {
+    width: 200px;
+    border-radius: 30%;
+  }
+    */
+  
